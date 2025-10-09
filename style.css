@@ -5,26 +5,42 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f7f3cf;
+    overflow: hidden;
 }
 
 #inicio{
     text-align: center;
 }
 
+
 header{
     padding-bottom: 100px;
-    margin-bottom: 220px ;
-    background-color: #176585 ;
-    overflow-x:scroll;
+    margin-bottom: 220px;
+    height: 80px;
+    background-color: #176585;
+    overflow-x: auto; /* Mudei para auto - mostra scroll só quando necessário */
+    overflow-y: hidden;
+    text-align: left;
+    white-space: nowrap; /* Impede quebra de linha dos botões */
 }
 
 header button{
+    margin-top: 50px;
     height: 80px;
+    padding: 0 20px; /* Adicionei padding horizontal */
     border-radius: 15px;
     background-color: #27b1bf;
     font-family: 'Garet', sans-serif;
     font-weight: 600;
     font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Garante que fiquem em linha */
+    white-space: nowrap; /* Impede quebra de texto dentro do botão */
+}
+
+header button:hover{
+    background-color: #1f8a95;
 }
 
 h1{
