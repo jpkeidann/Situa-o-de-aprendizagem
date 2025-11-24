@@ -3,76 +3,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #f7f3cf;
     overflow-x: hidden;
 }
 
-#inicio{
+#inicio {
     text-align: center;
 }
 
-#canvasInicial{
-    background: linear-gradient(to bottom, #002d3f,#00425c,#015d81);
+#canvasInicial {
+    background: linear-gradient(to bottom, #002d3f, #00425c, #015d81);
     left: 0vw;
     top: 180px;
     position: absolute;
     z-index: -1;
 }
 
-header{
+header {
     padding-bottom: 100px;
     padding-left: 25px;
     margin-bottom: 160px;
     height: 80px;
     background-color: #176585;
-    background: linear-gradient(to bottom ,#176585,#176585, #f7f3cf);
+    background: linear-gradient(to bottom, #176585, #176585, #f7f3cf);
     overflow-x: auto;
     overflow-y: hidden;
     text-align: left;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
-header button{
+header button {
     margin-top: 50px;
     margin-left: 5px;
     height: 40px;
     padding: 0 10px;
     border-radius: 50px;
-    background: linear-gradient(to right, #27b1bf,#2ecddf,#31dcef);
+    background: linear-gradient(to right, #27b1bf, #2ecddf, #31dcef);
     font-family: 'Garet';
     font-weight: 500;
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
-header button:hover{
+header button:hover {
     background-color: #1f8a95;
 }
 
-h1{
+h1 {
     font-size: 8rem;
     font-family: Telegraf;
     font-weight: 500;
     margin: 0;
 }
 
-.imagemIndex{
+.imagemIndex {
     position: absolute;
     z-index: -1;
 }
 
-#imgDecoracao1{
+#imgDecoracao1 {
     width: 40%;
     top: 25%;
     left: 30%;
 }
 
-#imgDecoracao2{
+#imgDecoracao2 {
     width: 25%;
     height: 45%;
     top: 80%;
@@ -80,7 +80,7 @@ h1{
     rotate: -65deg;
 }
 
-#imgDecoracao3{
+#imgDecoracao3 {
     width: 35vw;
     height: 60vh;
     top: 25%;
@@ -88,7 +88,7 @@ h1{
     rotate: -90deg;
 }
 
-#iniciar{
+#iniciar {
     background-color: black;
     color: white;
     font-size: 2rem;
@@ -98,13 +98,13 @@ h1{
 }
 
 
-main{
+main {
     text-align: center;
 }
 
 /*----------------------------------  Páginas:  --------------------------------------*/
 
-.H1Paginas{
+.H1Paginas {
     margin-left: 15vw;
     width: 50vw;
     font-size: 6rem;
@@ -113,29 +113,29 @@ main{
     margin: 0;
 }
 
-.BlocoDeDecoracao{
+.BlocoDeDecoracao {
     margin-left: 15vw;
     margin-top: 8vh;
-    background: linear-gradient(to right,#d9e9cd,#49c7c7,#27b1bf);
+    background: linear-gradient(to right, #d9e9cd, #49c7c7, #27b1bf);
     width: 80vw;
     height: 15vh;
     border-radius: 30px;
 }
 
-#SA{
+#SA {
     position: absolute;
-    color:#27b1bf;
+    color: #27b1bf;
     font-weight: bold;
     top: 35vh;
     right: 20vw;
 }
 
-#content{
+#content {
     margin-top: 20vh;
     font-family: 'Quicksand' !important;
 }
 
-#DAMN{
+#DAMN {
     width: 80vw;
     height: 10vh;
     position: absolute;
@@ -143,12 +143,12 @@ main{
     z-index: 1;
 }
 
-p{
-    font-family:Quicksand;
+p {
+    font-family: Quicksand;
     font-size: 23px;
 }
 
-/* #imgPagina{
+#imgPagina {
     width: 25vw;
     height: 55vh;
     position: absolute;
@@ -157,8 +157,9 @@ p{
     rotate: 45deg;
 }
 
+/*--------------------------------- Section 1 -------------------------------------*/
 
-#imgPagina2{
+#imgPagina2 {
     width: 35vw;
     height: 65vh;
     position: absolute;
@@ -166,17 +167,17 @@ p{
     top: 115vh;
 }
 
-#imgPagina3{
+#imgPagina3 {
     z-index: -1;
     width: 50vw;
     height: 95vh;
     position: absolute;
     left: 0vw;
     top: 153vh;
-} */
+}
 
-.titulos{
-    font-family:Montserrat;
+.titulos {
+    font-family: Montserrat;
     font-weight: bold;
     font-size: 4rem;
     color: #018fa6;
@@ -184,31 +185,31 @@ p{
     margin-left: 15vw;
 }
 
-.conteudo{
-    width: 40vw !important;
-    background: linear-gradient(to right,#d9e9cd,#49c7c7,#27b1bf);
+.conteudo {
+    background: linear-gradient(to right, #d9e9cd, #49c7c7, #27b1bf);
     border-radius: 30px;
 }
 
-#conteudo1{
+#conteudo1 {
     margin-left: 37vw;
+    width: 700px;
 }
 
-#imgPagina4{
+#imgPagina4 {
     margin-top: 5vh;
     margin-left: 20vw;
     width: 20vw;
     height: 28vh;
 }
 
-#imgPagina5{
+#imgPagina5 {
     margin-top: 5vh;
     margin-left: 2vw;
     width: 20vw;
     height: 28vh;
 }
 
-#imgPagina6{
+#imgPagina6 {
     width: 35vw;
     height: 75vh;
     position: absolute;
@@ -217,30 +218,51 @@ p{
     z-index: -1;
 }
 
-#conteudo2{
-    margin-left: 37vw;
+/*--------------------------------- Section 2 -------------------------------------*/
+
+#conteudo2 {
+    margin-left: 38vw;
+    width: 700px;
 }
 
-#imgPagina7{
+#imgPagina7 {
     position: absolute;
-    top: 255vh;
+    top: 275vh;
     left: 2vw;
     width: 28vw;
     height: 48vh;
 }
 
-.borderline{
+.borderline {
     border: 10px solid #27b1bf;
     border-radius: 35px;
 }
 
-#sec2{
- margin-top: 80vh;
+#sec2 {
+    margin-top: 10vh;
 }
 
-#imgPagina8{
-    position: absolute;
-    top: 340vh;
-    left: 0px;
+#imgPagina8 {
+    display: flex;
+    flex-direction: row;
     width: 70vw;
+}
+
+/*--------------------------------- Section 3 -------------------------------------*/
+
+#sec3{
+    margin-top: 20vh;
+}
+
+#conteudo3 {
+    margin-left: 30px;
+    width: 600px;
+}
+
+#arduino{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    font-size: 600%;
+    margin-left: 6vw !important;
 }
