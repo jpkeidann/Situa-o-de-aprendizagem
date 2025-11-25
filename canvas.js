@@ -12,10 +12,10 @@ var mouse = {
 }
 
 window.addEventListener('mousemove', (event)=>{
-    mouse.x = event.x
-    mouse.y = event.y
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = event.clientX - rect.left;
+    mouse.y = event.clientY - rect.top;
 })
-// to colocando aq em comentário pra eu não me esquecer. mas troca o window por uma div que ocupe todo o espaço do canvas, que daí o mouse vai entender a área que é pra estar.
 
 let colorArr = [
     '#5dd0de',

@@ -16,10 +16,14 @@ body {
 
 #canvasInicial {
     background: linear-gradient(to bottom, #002d3f, #00425c, #015d81);
-    left: 0vw;
     top: 180px;
+    left: 0vw;
     position: absolute;
     z-index: -1;
+}
+
+#tituloIndex{
+    margin-top: 30vh;
 }
 
 header {
@@ -28,7 +32,7 @@ header {
     margin-bottom: 160px;
     height: 80px;
     background-color: #176585;
-    background: linear-gradient(to bottom, #176585, #176585, #f7f3cf);
+    background: linear-gradient(to bottom, #176585, #176585, #002d3f);
     overflow-x: auto;
     overflow-y: hidden;
     text-align: left;
