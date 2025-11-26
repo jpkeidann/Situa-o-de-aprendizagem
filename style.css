@@ -139,7 +139,7 @@ main {
     font-family: 'Quicksand' !important;
 }
 
-#DAMN {
+#DAMN{
     width: 80vw;
     height: 10vh;
     position: absolute;
@@ -147,7 +147,7 @@ main {
     z-index: 1;
 }
 
-p {
+p{
     font-family: Quicksand;
     font-size: 23px;
 }
@@ -218,7 +218,6 @@ p {
     height: 75vh;
     position: absolute;
     right: -3vw;
-    top: 230vh;
     z-index: -1;
 }
 
@@ -230,9 +229,9 @@ p {
 }
 
 #imgPagina7 {
-    position: absolute;
-    top: 275vh;
-    left: 2vw;
+    position: relative;
+    top: -50vh;
+    left: -30vw;
     width: 28vw;
     height: 48vh;
 }
@@ -244,6 +243,7 @@ p {
 
 #sec2 {
     margin-top: 10vh;
+    height: 70vh;
 }
 
 #imgPagina8 {
@@ -259,7 +259,7 @@ p {
 }
 
 #conteudo3 {
-    margin-left: 30px;
+    margin-left: 8vw;
     width: 600px;
 }
 
@@ -268,5 +268,86 @@ p {
     flex-direction: row;
     margin-top: 10vh;
     font-size: 600%;
-    margin-left: 6vw !important;
+    margin-left: 13vw !important;
 }
+
+#imgPagina9{
+    position: absolute;
+    top: 400vh;
+    right: 8vw;
+    width: 50vw;
+    height: 90vh;
+}
+
+#imgPagina10{
+    position: relative;
+    bottom: 50vh;
+    left: 17vw;
+    width: 30vw;
+    height: 40vh;
+}
+
+#imgPagina11{
+    position: absolute;
+    left: -0.1vw;
+    margin-top: 10vh;
+    width: 30vw;
+    height: 80vh;
+}
+
+/* --------------------------------- Section 4 ---------------------------------------------*/
+
+#conteudo4{
+    position: relative;
+    left: 40vw;
+    width: 700px;
+}
+
+#CF{
+    margin-top: 5vh;
+    font-size: 350%;
+}
+
+#imgPagina12{
+    position: relative;
+    left: 30vw;
+    width: 30vw;
+    height: 40vh;
+}
+
+#imgPagina13{
+    position: absolute;
+    right: 40vw;
+}
+
+/* -------------------------------------------------- section 5 -------------------------------------------------------*/
+#sec5{
+    margin-top: 20vh;
+}
+
+#imgPagina2-2{
+    width: 35vw;
+    height: 65vh;
+    position: absolute;
+    left: 0vw;
+    top: 645vh;
+}
+
+#imgPagina3-2{
+    z-index: -1;
+    width: 50vw;
+    height: 95vh;
+    position: absolute;
+    left: 0vw;
+    top: 683vh;
+}
+
+#imgPagina9-2{
+    position: absolute;
+    top: 965vh;
+    right: 8vw;
+    width: 50vw;
+    height: 90vh;
+
+}
+/* --------------------------------------- section 6 -------------------------------------------------- */
