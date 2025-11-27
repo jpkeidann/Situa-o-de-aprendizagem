@@ -6,8 +6,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #002d3f, #00425c, #015d81);
+    background: #000000;
     overflow-x: hidden;
+    height: 100vh;
+    color: white;
 }
 
 #inicio {
@@ -16,14 +18,21 @@ body {
 
 #canvasInicial {
     background: linear-gradient(to bottom, #002d3f, #00425c, #015d81);
-    top: 180px;
-    left: 0vw;
-    position: absolute;
+    position: fixed;
+    top: 0;         
+    left: 0; 
+    z-index: -1;
+}
+
+#canva{
+    position: fixed; 
+    top: 0;          
+    left: 0;   
     z-index: -1;
 }
 
 #tituloIndex{
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 header {
