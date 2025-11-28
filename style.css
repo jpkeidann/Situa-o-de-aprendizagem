@@ -22,6 +22,7 @@ body {
     top: 0;         
     left: 0; 
     z-index: -1;
+    height: 100vh;
 }
 
 #canva{
@@ -118,6 +119,7 @@ main {
 /*----------------------------------  Páginas:  --------------------------------------*/
 
 .H1Paginas {
+    color: #d9e9cd;
     margin-left: 15vw;
     width: 50vw;
     font-size: 6rem;
@@ -145,6 +147,7 @@ main {
 
 #content {
     margin-top: 20vh;
+    min-height: 100vh;
     font-family: 'Quicksand' !important;
 }
 
@@ -173,20 +176,21 @@ p{
 /*--------------------------------- Section 1 -------------------------------------*/
 
 #imgPagina2 {
+
     width: 35vw;
     height: 65vh;
     position: absolute;
     left: 0vw;
-    top: 115vh;
+    top: 165vh;
 }
 
 #imgPagina3 {
     z-index: -1;
-    width: 50vw;
-    height: 95vh;
+    width: 40vw;
+    height: 145vh;
     position: absolute;
     left: 0vw;
-    top: 153vh;
+    top: 203vh;
 }
 
 .titulos {
@@ -195,12 +199,14 @@ p{
     font-size: 4rem;
     color: #018fa6;
     margin-top: 25vh;
-    margin-left: 15vw;
+    margin-left: 20vw;
 }
 
 .conteudo {
-    background: linear-gradient(to right, #d9e9cd, #49c7c7, #27b1bf);
+    margin-top: 30px;
+    background: #202020;
     border-radius: 30px;
+    padding: 20px;
 }
 
 #conteudo1 {
@@ -222,25 +228,18 @@ p{
     height: 28vh;
 }
 
-#imgPagina6 {
-    width: 35vw;
-    height: 75vh;
-    position: absolute;
-    right: -3vw;
-    z-index: -1;
-}
 
 /*--------------------------------- Section 2 -------------------------------------*/
 
 #conteudo2 {
-    margin-left: 38vw;
-    width: 700px;
+    margin-left: 35vw;
+    width: 600px;
 }
 
 #imgPagina7 {
     position: relative;
-    top: -50vh;
-    left: -30vw;
+    top: -90vh;
+    left: -15vw;
     width: 28vw;
     height: 48vh;
 }
@@ -251,8 +250,17 @@ p{
 }
 
 #sec2 {
-    margin-top: 10vh;
+    position: relative;
+    margin-top: 30vh;
     height: 70vh;
+}
+
+#imgPagina6 {
+    width: 35vw;
+    height: 75vh;
+    position: relative;
+    right: -18vw;
+    z-index: -1;
 }
 
 #imgPagina8 {
@@ -264,11 +272,12 @@ p{
 /*--------------------------------- Section 3 -------------------------------------*/
 
 #sec3{
-    margin-top: 20vh;
+    position: relative;
+    margin-top: 100vh;
 }
 
 #conteudo3 {
-    margin-left: 8vw;
+    margin-left: 4vw;
     width: 600px;
 }
 
@@ -277,21 +286,21 @@ p{
     flex-direction: row;
     margin-top: 10vh;
     font-size: 600%;
-    margin-left: 13vw !important;
+    margin-left: 11vw !important;
 }
 
 #imgPagina9{
     position: absolute;
-    top: 400vh;
-    right: 8vw;
+    top: 85vh;
+    right: 1vw;
     width: 50vw;
     height: 90vh;
 }
 
 #imgPagina10{
     position: relative;
-    bottom: 50vh;
-    left: 17vw;
+    bottom: 70vh;
+    left: 25vw;
     width: 30vw;
     height: 40vh;
 }
@@ -342,21 +351,21 @@ p{
     height: 65vh;
     position: absolute;
     left: 0vw;
-    top: 645vh;
+    top: 815vh;
 }
 
 #imgPagina3-2{
     z-index: -1;
-    width: 50vw;
+    width: 40vw;
     height: 95vh;
     position: absolute;
     left: 0vw;
-    top: 683vh;
+    top: 853vh;
 }
 
 #imgPagina9-2{
     position: absolute;
-    top: 965vh;
+    top: 1175vh;
     right: 8vw;
     width: 50vw;
     height: 90vh;
