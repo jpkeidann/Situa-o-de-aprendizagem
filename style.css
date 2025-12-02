@@ -187,6 +187,9 @@ p {
     border-radius: 25px;
 }
 
+pre{
+    background-color: #000000;
+}
 
 /*--------------------------------- Section 1 -------------------------------------*/
 
@@ -246,7 +249,7 @@ p {
 #sec2 {
     position: relative;
     top: 20vh;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 #imgPagina6 {
@@ -322,7 +325,7 @@ p {
 
 #sec4 {
     margin-top: 20vh;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 #imgPagina11 {
@@ -393,7 +396,7 @@ p {
 #sec6 {
     position: relative;
     margin-top: 20vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* --------------------------------------- section 7 --------------------------------------------------- */
@@ -424,7 +427,7 @@ p {
 #sec8 {
     position: relative;
     margin-top: 20vh;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 /* --------------------------------------- section 9 --------------------------------------------------- */
@@ -432,7 +435,7 @@ p {
 #sec9 {
     position: relative;
     margin-top: 20vh;
-    height: 140vh;
+    min-height: 140vh;
 }
 
 /* --------------------------------------- section 10 --------------------------------------------------- */
@@ -440,7 +443,7 @@ p {
 #sec10 {
     position: relative;
     margin-top: 20vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* --------------------------------------- section 11 --------------------------------------------------- */
@@ -455,7 +458,7 @@ p {
 #sec12 {
     position: relative;
     margin-top: 20vh;
-    height: 140vh;
+    min-height: 140vh;
 }
 
 /* --------------------------------------- section 13 --------------------------------------------------- */
@@ -463,7 +466,7 @@ p {
 #sec13 {
     position: relative;
     margin-top: 20vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* --------------------------------------- section 14 --------------------------------------------------- */
@@ -478,7 +481,7 @@ p {
 #sec15 {
     position: relative;
     margin-top: 20vh;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 /* --------------------------------------- section 15 --------------------------------------------------- */
@@ -486,5 +489,20 @@ p {
 #sec16 {
     position: relative;
     margin-top: 200vh;
-    height: 140vh;
+    min-height: 140vh;
+}
+
+/* ----------------- eletroeletronica -------------------------*/
+
+    #conteudoCode {
+        margin-left: 5vw;
+        width: 80vw;
+        text-align: left;
+    }
+
+/* ----------------- Lógica de computação ------------------------- */
+
+#img{
+    width: 30vw;
+    height: 30vh;
 }
